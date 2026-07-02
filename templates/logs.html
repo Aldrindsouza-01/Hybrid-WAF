@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attack Logs</title>
+</head>
+<body style="font-family:Arial; margin:40px;">
+
+<h1>Detected Attack Logs</h1>
+
+<hr>
+
+{% for log in logs %}
+
+<p>{{ log }}</p>
+
+<hr>
+
+{% endfor %}
+
+</body>
+</html>

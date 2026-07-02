@@ -1,0 +1,55 @@
+[2026-05-10 21:52:30] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-12 08:35:10] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-12 08:40:28] IP: 127.0.0.1 | ATTACK DETECTED: SQL Injection | Feedback Payload: </script>
+<1==0>;
+insert into
+[2026-05-12 08:43:22] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Search Payload: <script>
+[2026-05-12 12:38:36] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-12 12:44:06] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Feedback Payload: <script>
+helloooo..
+</script>
+[2026-05-12 12:44:50] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Feedback Payload: <script>
+helooo
+</script>
+[2026-05-12 12:46:17] IP: 127.0.0.1 | STATUS: FAILED LOGIN | Username: admin
+[2026-05-12 12:46:48] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-17 21:00:39] IP: 127.0.0.1 | CUSTOMER LOGIN SUCCESS
+[2026-05-17 21:13:20] IP: 127.0.0.1 | CUSTOMER LOGIN SUCCESS
+[2026-05-17 21:59:02] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Feedback Payload: <scripts>
+1==0;
+1<=0;
+</script>
+[2026-05-17 21:59:42] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Search Payload: <script> </script>
+[2026-05-17 21:59:59] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-18 10:33:36] IP: 127.0.0.1 | ATTACK DETECTED: SQL Injection | Search Payload: " OR 1=1 --
+[2026-05-18 10:37:33] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Feedback Payload: <script>alert('XSS Test 1')</script>
+"><script>alert('XSS Test 2')</script>
+<img src=x onerror="alert('XSS Test 3')">
+<svg/onload=alert('XSS Test 4')>
+<a href="javascript:alert('XSS Test 5')">Click</a>
+
+[2026-05-18 10:38:42] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-19 10:17:57] IP: 127.0.0.1 | ATTACK DETECTED: SQL Injection | Search Payload: ' OR1=1 --
+[2026-05-19 10:18:59] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Feedback Payload: <script>
+<p>your been under our control</p>
+</script>
+[2026-05-19 10:19:43] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-19 14:29:07] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Search Payload: <scripts> this is script</script>
+[2026-05-19 14:30:13] IP: 127.0.0.1 | ATTACK DETECTED: SQL Injection | Search Payload: ' OR 1=1 -- 
+[2026-05-19 14:31:06] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-19 15:15:41] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Feedback Payload: <script>alert('XSS')</script>
+<img src=x onerror=alert(1)>
+<svg onload=alert('XSS')>
+<body onload=alert('test')>
+javascript:alert('XSS')
+
+[2026-05-19 15:15:58] IP: 127.0.0.1 | ATTACK DETECTED: XSS Attack | Feedback Payload: <script>alert('XSS')</script>
+<img src=x onerror=alert(1)>
+<svg onload=alert('XSS')>
+<body onload=alert('test')>
+javascript:alert('XSS')
+
+[2026-05-21 09:29:36] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-21 09:55:18] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin
+[2026-05-21 10:08:51] IP: 127.0.0.1 | ATTACK DETECTED: SQL Injection | Search Payload: OR 1=1 -- admin' -- ' UNION SELECT * FROM users -- ' DROP TABLE users -- ' AND '1'='1
+[2026-05-21 10:21:39] IP: 127.0.0.1 | STATUS: SUCCESSFUL LOGIN | Username: admin

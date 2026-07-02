@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Products</title>
+
+    <style>
+
+        body{
+            background:#020617;
+            color:white;
+            font-family:Arial;
+            margin:0;
+            padding:0;
+        }
+
+        .container{
+
+            width:90%;
+
+            margin:auto;
+
+            text-align:center;
+
+            margin-top:40px;
+
+        }
+
+        h1{
+
+            color:#38bdf8;
+
+            font-size:42px;
+
+            margin-bottom:20px;
+
+        }
+
+        .back-btn{
+
+            padding:12px 22px;
+
+            border:none;
+
+            border-radius:8px;
+
+            background:#38bdf8;
+
+            color:white;
+
+            cursor:pointer;
+
+            font-size:15px;
+
+            margin-bottom:35px;
+
+            transition:0.3s;
+
+        }
+
+        .back-btn:hover{
+
+            background:#0284c7;
+
+        }
+
+        .products{
+
+            display:flex;
+
+            flex-wrap:wrap;
+
+            justify-content:center;
+
+            gap:30px;
+
+            margin-top:20px;
+
+        }
+
+        .card{
+
+            width:260px;
+
+            background:#111827;
+
+            border-radius:18px;
+
+            overflow:hidden;
+
+            box-shadow:0px 0px 20px rgba(56,189,248,0.15);
+
+            transition:0.3s;
+
+        }
+
+        .card:hover{
+
+            transform:translateY(-8px);
+
+        }
+
+        .card img{
+
+            width:100%;
+
+            height:220px;
+
+            object-fit:cover;
+
+        }
+
+        .card-content{
+
+            padding:20px;
+
+        }
+
+        .price{
+
+            color:lime;
+
+            font-size:22px;
+
+            margin-top:10px;
+
+        }
+
+        .buy-btn{
+
+            margin-top:18px;
+
+            padding:12px 20px;
+
+            background:#38bdf8;
+
+            border:none;
+
+            border-radius:8px;
+
+            color:white;
+
+            cursor:pointer;
+
+        }
+
+        .buy-btn:hover{
+
+            background:#0284c7;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Featured Products</h1>
+
+    <a href="/">
+
+        <button class="back-btn">
+
+            ← Back To Store
+
+        </button>
+
+    </a>
+
+    <div class="products">
+
+        <!-- PRODUCT 1 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853">
+
+            <div class="card-content">
+
+                <h2>Dell XPS 15</h2>
+
+                <div class="price">₹1,25,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 2 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+
+            <div class="card-content">
+
+                <h2>iPhone 15 Pro</h2>
+
+                <div class="price">₹1,35,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 3 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e">
+
+            <div class="card-content">
+
+                <h2>Sony WH-1000XM5</h2>
+
+                <div class="price">₹32,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 4 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97">
+
+            <div class="card-content">
+
+                <h2>Razer Huntsman</h2>
+
+                <div class="price">₹14,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 5 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+
+            <div class="card-content">
+
+                <h2>Samsung Curved Monitor</h2>
+
+                <div class="price">₹22,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

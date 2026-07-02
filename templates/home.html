@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>TechStore E-Commerce</title>
+
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            background:#020617;
+            font-family:Arial;
+            color:white;
+        }
+
+        .navbar{
+
+            background:#111827;
+
+            padding:20px;
+
+            display:flex;
+
+            justify-content:center;
+
+            gap:20px;
+
+            box-shadow:0px 0px 15px rgba(0,0,0,0.5);
+
+            position:sticky;
+
+            top:0;
+
+            z-index:1000;
+
+        }
+
+        .navbar a{
+
+            text-decoration:none;
+
+        }
+
+        .nav-button{
+
+            padding:12px 24px;
+
+            background:#38bdf8;
+
+            border:none;
+
+            border-radius:8px;
+
+            color:white;
+
+            font-size:16px;
+
+            cursor:pointer;
+
+            transition:0.3s;
+
+        }
+
+        .nav-button:hover{
+
+            background:#0284c7;
+
+            transform:scale(1.05);
+
+        }
+
+        .hero{
+
+            text-align:center;
+
+            padding:70px 20px;
+
+        }
+
+        .hero h1{
+
+            font-size:58px;
+
+            color:#38bdf8;
+
+            margin-bottom:10px;
+
+        }
+
+        .hero h2{
+
+            color:#cbd5e1;
+
+            font-weight:normal;
+
+        }
+
+        .products-section{
+
+            width:90%;
+
+            margin:auto;
+
+            margin-top:40px;
+
+            margin-bottom:60px;
+
+        }
+
+        .section-title{
+
+            text-align:center;
+
+            color:#38bdf8;
+
+            margin-bottom:40px;
+
+            font-size:36px;
+
+        }
+
+        .products{
+
+            display:flex;
+
+            flex-wrap:wrap;
+
+            justify-content:center;
+
+            gap:30px;
+
+        }
+
+        .card{
+
+            width:260px;
+
+            background:#111827;
+
+            border-radius:18px;
+
+            overflow:hidden;
+
+            box-shadow:0px 0px 20px rgba(56,189,248,0.15);
+
+            transition:0.3s;
+
+        }
+
+        .card:hover{
+
+            transform:translateY(-8px);
+
+        }
+
+        .card img{
+
+            width:100%;
+
+            height:220px;
+
+            object-fit:cover;
+
+        }
+
+        .card-content{
+
+            padding:20px;
+
+            text-align:center;
+
+        }
+
+        .card-content h3{
+
+            margin:10px 0;
+
+        }
+
+        .price{
+
+            color:lime;
+
+            font-size:22px;
+
+            margin-top:10px;
+
+        }
+
+        .buy-btn{
+
+            margin-top:18px;
+
+            padding:12px 20px;
+
+            background:#38bdf8;
+
+            border:none;
+
+            border-radius:8px;
+
+            color:white;
+
+            cursor:pointer;
+
+            transition:0.3s;
+
+        }
+
+        .buy-btn:hover{
+
+            background:#0284c7;
+
+        }
+
+        .footer{
+
+            text-align:center;
+
+            padding:25px;
+
+            background:#111827;
+
+            color:#94a3b8;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+    <a href="/products">
+        <button class="nav-button">Products</button>
+    </a>
+
+    <a href="/search">
+        <button class="nav-button">Search</button>
+    </a>
+
+    <a href="/feedback">
+        <button class="nav-button">Feedback</button>
+    </a>
+
+    <a href="/login">
+        <button class="nav-button">Admin Login</button>
+    </a>
+
+</div>
+
+<div class="hero">
+
+    <h1>TechStore E-Commerce</h1>
+
+    <h2>Secure Online Shopping Protected By Hybrid WAF</h2>
+
+</div>
+
+<div class="products-section">
+
+    <div class="section-title">
+
+        Featured Products
+
+    </div>
+
+    <div class="products">
+
+        <!-- PRODUCT 1 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853">
+
+            <div class="card-content">
+
+                <h3>Dell XPS 15</h3>
+
+                <div class="price">₹1,25,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 2 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9">
+
+            <div class="card-content">
+
+                <h3>iPhone 15 Pro</h3>
+
+                <div class="price">₹1,35,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 3 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e">
+
+            <div class="card-content">
+
+                <h3>Sony WH-1000XM5</h3>
+
+                <div class="price">₹32,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 4 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97">
+
+            <div class="card-content">
+
+                <h3>Razer Huntsman</h3>
+
+                <div class="price">₹14,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT 5 -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+
+            <div class="card-content">
+
+                <h3>Samsung Curved Monitor</h3>
+
+                <div class="price">₹22,000</div>
+
+                <button class="buy-btn">Buy Now</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="footer">
+
+    TechStore Secure Commerce Platform • Hybrid WAF Protected
+
+</div>
+
+</body>
+
+</html>

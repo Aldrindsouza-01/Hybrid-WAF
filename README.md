@@ -36,6 +36,15 @@ In addition to signature-based detection, it uses **machine learning-based anoma
     <img src="./output-screenshots/waf-ss6.png" width="400"/>
 </p>
 
+<img width="1568" height="736" alt="Screenshot 2026-05-18 103857" src="https://github.com/user-attachments/assets/0677619a-ad07-4414-b99a-f8991c1ae312" />
+<img width="650" height="715" alt="Screenshot 2026-05-18 103840" src="https://github.com/user-attachments/assets/3083bbb0-4290-44a0-b3fe-bd80a5fc57d9" />
+<img width="1041" height="777" alt="Screenshot 2026-05-18 103821" src="https://github.com/user-attachments/assets/f1f2fa37-d1ae-4fd1-86ad-c2611bb74d54" />
+<img width="1445" height="842" alt="Screenshot 2026-05-18 103223" src="https://github.com/user-attachments/assets/32e00850-ee06-41d8-afc0-33f18fe92f3c" />
+
+
+
+
+
 
 ## Tech Stack
 
